@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8912EFE81ED21E2E0092DC5E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8912EFE71ED21E2E0092DC5E /* AppDelegate.m */; };
+		8912EFEB1ED21E2E0092DC5E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8912EFEA1ED21E2E0092DC5E /* main.m */; };
+		8912EFEE1ED21E2E0092DC5E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8912EFED1ED21E2E0092DC5E /* ViewController.m */; };
+		8912EFF01ED21E2E0092DC5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8912EFEF1ED21E2E0092DC5E /* Assets.xcassets */; };
+		8912EFF31ED21E2E0092DC5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8912EFF11ED21E2E0092DC5E /* Main.storyboard */; };
+		8912EFFE1ED21E2E0092DC5E /* TestMacAVFoundationSynth01Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8912EFFD1ED21E2E0092DC5E /* TestMacAVFoundationSynth01Tests.m */; };
+		8912F0091ED21E2E0092DC5E /* TestMacAVFoundationSynth01UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8912F0081ED21E2E0092DC5E /* TestMacAVFoundationSynth01UITests.m */; };
+		8912F0191ED225EB0092DC5E /* AudioEngineSynth.m in Sources */ = {isa = PBXBuildFile; fileRef = 8912F0181ED225EB0092DC5E /* AudioEngineSynth.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8912EFFA1ED21E2E0092DC5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8912EFDB1ED21E2E0092DC5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8912EFE21ED21E2E0092DC5E;
+			remoteInfo = TestMacAVFoundationSynth01;
+		};
+		8912F0051ED21E2E0092DC5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8912EFDB1ED21E2E0092DC5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8912EFE21ED21E2E0092DC5E;
+			remoteInfo = TestMacAVFoundationSynth01;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8912EFE31ED21E2E0092DC5E /* TestMacAVFoundationSynth01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestMacAVFoundationSynth01.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8912EFE61ED21E2E0092DC5E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8912EFE71ED21E2E0092DC5E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8912EFEA1ED21E2E0092DC5E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8912EFEC1ED21E2E0092DC5E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8912EFED1ED21E2E0092DC5E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8912EFEF1ED21E2E0092DC5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8912EFF21ED21E2E0092DC5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8912EFF41ED21E2E0092DC5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8912EFF91ED21E2E0092DC5E /* TestMacAVFoundationSynth01Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestMacAVFoundationSynth01Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8912EFFD1ED21E2E0092DC5E /* TestMacAVFoundationSynth01Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestMacAVFoundationSynth01Tests.m; sourceTree = "<group>"; };
+		8912EFFF1ED21E2E0092DC5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8912F0041ED21E2E0092DC5E /* TestMacAVFoundationSynth01UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestMacAVFoundationSynth01UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8912F0081ED21E2E0092DC5E /* TestMacAVFoundationSynth01UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestMacAVFoundationSynth01UITests.m; sourceTree = "<group>"; };
+		8912F00A1ED21E2E0092DC5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8912F0161ED21E380092DC5E /* TestMacAVFoundationSynth01.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TestMacAVFoundationSynth01.entitlements; sourceTree = "<group>"; };
+		8912F0171ED225EB0092DC5E /* AudioEngineSynth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioEngineSynth.h; sourceTree = "<group>"; };
+		8912F0181ED225EB0092DC5E /* AudioEngineSynth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioEngineSynth.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8912EFE01ED21E2E0092DC5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8912EFF61ED21E2E0092DC5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8912F0011ED21E2E0092DC5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8912EFDA1ED21E2E0092DC5E = {
+			isa = PBXGroup;
+			children = (
+				8912EFE51ED21E2E0092DC5E /* TestMacAVFoundationSynth01 */,
+				8912EFFC1ED21E2E0092DC5E /* TestMacAVFoundationSynth01Tests */,
+				8912F0071ED21E2E0092DC5E /* TestMacAVFoundationSynth01UITests */,
+				8912EFE41ED21E2E0092DC5E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8912EFE41ED21E2E0092DC5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8912EFE31ED21E2E0092DC5E /* TestMacAVFoundationSynth01.app */,
+				8912EFF91ED21E2E0092DC5E /* TestMacAVFoundationSynth01Tests.xctest */,
+				8912F0041ED21E2E0092DC5E /* TestMacAVFoundationSynth01UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8912EFE51ED21E2E0092DC5E /* TestMacAVFoundationSynth01 */ = {
+			isa = PBXGroup;
+			children = (
+				8912F0161ED21E380092DC5E /* TestMacAVFoundationSynth01.entitlements */,
+				8912EFE61ED21E2E0092DC5E /* AppDelegate.h */,
+				8912EFE71ED21E2E0092DC5E /* AppDelegate.m */,
+				8912EFEC1ED21E2E0092DC5E /* ViewController.h */,
+				8912EFED1ED21E2E0092DC5E /* ViewController.m */,
+				8912EFEF1ED21E2E0092DC5E /* Assets.xcassets */,
+				8912EFF11ED21E2E0092DC5E /* Main.storyboard */,
+				8912EFF41ED21E2E0092DC5E /* Info.plist */,
+				8912EFE91ED21E2E0092DC5E /* Supporting Files */,
+				8912F0171ED225EB0092DC5E /* AudioEngineSynth.h */,
+				8912F0181ED225EB0092DC5E /* AudioEngineSynth.m */,
+			);
+			path = TestMacAVFoundationSynth01;
+			sourceTree = "<group>";
+		};
+		8912EFE91ED21E2E0092DC5E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8912EFEA1ED21E2E0092DC5E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8912EFFC1ED21E2E0092DC5E /* TestMacAVFoundationSynth01Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8912EFFD1ED21E2E0092DC5E /* TestMacAVFoundationSynth01Tests.m */,
+				8912EFFF1ED21E2E0092DC5E /* Info.plist */,
+			);
+			path = TestMacAVFoundationSynth01Tests;
+			sourceTree = "<group>";
+		};
+		8912F0071ED21E2E0092DC5E /* TestMacAVFoundationSynth01UITests */ = {
+			isa = PBXGroup;
+			children = (
+				8912F0081ED21E2E0092DC5E /* TestMacAVFoundationSynth01UITests.m */,
+				8912F00A1ED21E2E0092DC5E /* Info.plist */,
+			);
+			path = TestMacAVFoundationSynth01UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8912EFE21ED21E2E0092DC5E /* TestMacAVFoundationSynth01 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8912F00D1ED21E2E0092DC5E /* Build configuration list for PBXNativeTarget "TestMacAVFoundationSynth01" */;
+			buildPhases = (
+				8912EFDF1ED21E2E0092DC5E /* Sources */,
+				8912EFE01ED21E2E0092DC5E /* Frameworks */,
+				8912EFE11ED21E2E0092DC5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestMacAVFoundationSynth01;
+			productName = TestMacAVFoundationSynth01;
+			productReference = 8912EFE31ED21E2E0092DC5E /* TestMacAVFoundationSynth01.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8912EFF81ED21E2E0092DC5E /* TestMacAVFoundationSynth01Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8912F0101ED21E2E0092DC5E /* Build configuration list for PBXNativeTarget "TestMacAVFoundationSynth01Tests" */;
+			buildPhases = (
+				8912EFF51ED21E2E0092DC5E /* Sources */,
+				8912EFF61ED21E2E0092DC5E /* Frameworks */,
+				8912EFF71ED21E2E0092DC5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8912EFFB1ED21E2E0092DC5E /* PBXTargetDependency */,
+			);
+			name = TestMacAVFoundationSynth01Tests;
+			productName = TestMacAVFoundationSynth01Tests;
+			productReference = 8912EFF91ED21E2E0092DC5E /* TestMacAVFoundationSynth01Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8912F0031ED21E2E0092DC5E /* TestMacAVFoundationSynth01UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8912F0131ED21E2E0092DC5E /* Build configuration list for PBXNativeTarget "TestMacAVFoundationSynth01UITests" */;
+			buildPhases = (
+				8912F0001ED21E2E0092DC5E /* Sources */,
+				8912F0011ED21E2E0092DC5E /* Frameworks */,
+				8912F0021ED21E2E0092DC5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8912F0061ED21E2E0092DC5E /* PBXTargetDependency */,
+			);
+			name = TestMacAVFoundationSynth01UITests;
+			productName = TestMacAVFoundationSynth01UITests;
+			productReference = 8912F0041ED21E2E0092DC5E /* TestMacAVFoundationSynth01UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8912EFDB1ED21E2E0092DC5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "John Carlson";
+				TargetAttributes = {
+					8912EFE21ED21E2E0092DC5E = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = P8SEUM7VKM;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+					8912EFF81ED21E2E0092DC5E = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = P8SEUM7VKM;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8912EFE21ED21E2E0092DC5E;
+					};
+					8912F0031ED21E2E0092DC5E = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = P8SEUM7VKM;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8912EFE21ED21E2E0092DC5E;
+					};
+				};
+			};
+			buildConfigurationList = 8912EFDE1ED21E2E0092DC5E /* Build configuration list for PBXProject "TestMacAVFoundationSynth01" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8912EFDA1ED21E2E0092DC5E;
+			productRefGroup = 8912EFE41ED21E2E0092DC5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8912EFE21ED21E2E0092DC5E /* TestMacAVFoundationSynth01 */,
+				8912EFF81ED21E2E0092DC5E /* TestMacAVFoundationSynth01Tests */,
+				8912F0031ED21E2E0092DC5E /* TestMacAVFoundationSynth01UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8912EFE11ED21E2E0092DC5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8912EFF01ED21E2E0092DC5E /* Assets.xcassets in Resources */,
+				8912EFF31ED21E2E0092DC5E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8912EFF71ED21E2E0092DC5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8912F0021ED21E2E0092DC5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8912EFDF1ED21E2E0092DC5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8912EFEE1ED21E2E0092DC5E /* ViewController.m in Sources */,
+				8912EFEB1ED21E2E0092DC5E /* main.m in Sources */,
+				8912EFE81ED21E2E0092DC5E /* AppDelegate.m in Sources */,
+				8912F0191ED225EB0092DC5E /* AudioEngineSynth.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8912EFF51ED21E2E0092DC5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8912EFFE1ED21E2E0092DC5E /* TestMacAVFoundationSynth01Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8912F0001ED21E2E0092DC5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8912F0091ED21E2E0092DC5E /* TestMacAVFoundationSynth01UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8912EFFB1ED21E2E0092DC5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8912EFE21ED21E2E0092DC5E /* TestMacAVFoundationSynth01 */;
+			targetProxy = 8912EFFA1ED21E2E0092DC5E /* PBXContainerItemProxy */;
+		};
+		8912F0061ED21E2E0092DC5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8912EFE21ED21E2E0092DC5E /* TestMacAVFoundationSynth01 */;
+			targetProxy = 8912F0051ED21E2E0092DC5E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8912EFF11ED21E2E0092DC5E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8912EFF21ED21E2E0092DC5E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8912F00B1ED21E2E0092DC5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8912F00C1ED21E2E0092DC5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8912F00E1ED21E2E0092DC5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TestMacAVFoundationSynth01/TestMacAVFoundationSynth01.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = P8SEUM7VKM;
+				INFOPLIST_FILE = TestMacAVFoundationSynth01/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.carlsound.TestMacAVFoundationSynth01;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8912F00F1ED21E2E0092DC5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TestMacAVFoundationSynth01/TestMacAVFoundationSynth01.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = P8SEUM7VKM;
+				INFOPLIST_FILE = TestMacAVFoundationSynth01/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.carlsound.TestMacAVFoundationSynth01;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8912F0111ED21E2E0092DC5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = P8SEUM7VKM;
+				INFOPLIST_FILE = TestMacAVFoundationSynth01Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.carlsound.TestMacAVFoundationSynth01Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestMacAVFoundationSynth01.app/Contents/MacOS/TestMacAVFoundationSynth01";
+			};
+			name = Debug;
+		};
+		8912F0121ED21E2E0092DC5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = P8SEUM7VKM;
+				INFOPLIST_FILE = TestMacAVFoundationSynth01Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.carlsound.TestMacAVFoundationSynth01Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestMacAVFoundationSynth01.app/Contents/MacOS/TestMacAVFoundationSynth01";
+			};
+			name = Release;
+		};
+		8912F0141ED21E2E0092DC5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = P8SEUM7VKM;
+				INFOPLIST_FILE = TestMacAVFoundationSynth01UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.carlsound.TestMacAVFoundationSynth01UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TestMacAVFoundationSynth01;
+			};
+			name = Debug;
+		};
+		8912F0151ED21E2E0092DC5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = P8SEUM7VKM;
+				INFOPLIST_FILE = TestMacAVFoundationSynth01UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.carlsound.TestMacAVFoundationSynth01UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TestMacAVFoundationSynth01;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8912EFDE1ED21E2E0092DC5E /* Build configuration list for PBXProject "TestMacAVFoundationSynth01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8912F00B1ED21E2E0092DC5E /* Debug */,
+				8912F00C1ED21E2E0092DC5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8912F00D1ED21E2E0092DC5E /* Build configuration list for PBXNativeTarget "TestMacAVFoundationSynth01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8912F00E1ED21E2E0092DC5E /* Debug */,
+				8912F00F1ED21E2E0092DC5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8912F0101ED21E2E0092DC5E /* Build configuration list for PBXNativeTarget "TestMacAVFoundationSynth01Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8912F0111ED21E2E0092DC5E /* Debug */,
+				8912F0121ED21E2E0092DC5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8912F0131ED21E2E0092DC5E /* Build configuration list for PBXNativeTarget "TestMacAVFoundationSynth01UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8912F0141ED21E2E0092DC5E /* Debug */,
+				8912F0151ED21E2E0092DC5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8912EFDB1ED21E2E0092DC5E /* Project object */;
+}
